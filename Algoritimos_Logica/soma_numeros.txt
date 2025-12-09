@@ -2,10 +2,13 @@ algoritmo "Soma"
 var
  A, B, soma: inteiro
 inicio
- Escreva ("Digite o valor de A:")
- Leia (A)
- Escreva ("Digite o valor de B:")
- Leia (B)
- soma:= A + B
- ESCREVA ("A soma é: " , soma)
+
+Escreva ("Digite o valor de A:")
+  Leia (A)
+  
+Escreva ("Digite o valor de B:")
+  Leia (B)
+
+  soma:= A + B
+  ESCREVA ("A soma é: " , soma)
 fimalgoritmo
