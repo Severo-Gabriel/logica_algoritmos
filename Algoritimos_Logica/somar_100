@@ -1,4 +1,4 @@
-algoritmo "Somar_100"
+algoritmo "somar_100"
 var
  A, B, SOMA: REAL
 inicio
