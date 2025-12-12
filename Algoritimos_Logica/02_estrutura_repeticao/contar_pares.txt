@@ -1,0 +1,22 @@
+algoritmo "Contar_Pares"
+var
+   num, pares: inteiro
+inicio
+
+   pares <- 0
+
+   escreval("Digite números (0 para sair): ")
+
+   leia(num)
+
+   enquanto num <> 0 faca
+      se num % 2 = 0 entao
+         pares <- pares + 1
+      fimse
+
+      leia(num)
+   fimenquanto
+
+   escreval("Quantidade de números pares: ", pares)
+
+fimalgoritmo
