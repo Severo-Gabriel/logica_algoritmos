@@ -1,0 +1,10 @@
+algoritmo "Contagem_1_a_50"
+var
+   i: inteiro
+inicio
+
+   para i de 1 ate 50 faca
+      escreva(i, " ")
+   fimpara
+
+fimalgoritmo
