@@ -1,0 +1,23 @@
+algoritmo "inverter_posicao"
+var
+   A: vetor[1..10] de inteiro
+   i: inteiro
+   temp: inteiro
+inicio
+   para i de 1 ate 10 faca
+      escreva("digite o valor de A[", i, "]: ")
+      leia(A[i])
+   fimpara
+   
+   para i <- 1 ate 5 faca
+      temp <- A[i]
+      A[i] <- A[11 - i]
+      A[11 - i] <- temp
+   fimpara
+
+   escreva("vetor invertido: ")
+   para i <- 1 ate 10 faca
+      escreva(A[i], " ")
+   fimpara
+
+fimalgoritmo
