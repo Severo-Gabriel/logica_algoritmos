@@ -1,4 +1,4 @@
-algoritmo "soma_matriz"
+ro algoritmo "soma_matriz"
 
 var
    A: vetor[1..5,1..5] de inteiro
